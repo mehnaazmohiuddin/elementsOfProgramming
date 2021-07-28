@@ -10,7 +10,7 @@ class DP_maxsubarray {
 
 	public static void main (String [] args){
 
-		int a [] = {1,2,-1,11,4,3,-8,5,20,1};
+		int a [] = {904,40,523,12,-335,-385,-124,481,-31};
 		int global_max = Integer.MIN_VALUE;
 		int s[] = new int [a.length];
 		System.out.println("The size of Array a is "+a.length);
